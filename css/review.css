@@ -4,6 +4,100 @@
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
 }
+/* start style header */
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.frame_568 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frame_307 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.line {
+    height: 2px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #262626;
+}
+.searchTerm {
+    width: 100%;
+    background-color: #121212;
+    border: 1px solid #121212;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    }
+.searchTerm:focus{
+    color: #380136;
+    }
+.searchButton {
+    height: 32px;
+    border: 1px solid #121212;
+    background: #121212;
+    text-align: center;
+    color: #121212;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    }
+.Button {
+    display: flex;
+    padding: 4px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: linear-gradient(220deg, #7ACA37 15.98%, #70C53A 28.3%, #56B641 48.98%, #2C9F4E 75.34%, #098C58 94.49%);
+} 
+.button_header {
+    background: linear-gradient(220deg, #7ACA37 15.98%, #70C53A 28.3%, #56B641 48.98%, #2C9F4E 75.34%, #098C58 94.49%);
+    cursor: pointer;
+    border: aliceblue;
+}
+span {
+    color: var(--gray-gray-3, #F5F5F5);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+.frame_6 {
+    width: 40%;
+}
+.frame_7 {
+    width: 40%;
+}
+.frame_574 {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+.frame_7 p {
+    color:  #8C8C8C;
+    text-align: left;
+    font-family: Circe;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* end style header */
 
 .item-1 {
 background-image: url(../img/Frame\ 570\ \(1\).png);
