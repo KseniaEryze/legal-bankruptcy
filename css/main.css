@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -8,10 +9,43 @@ body{
 h1,h2,h3,h4,h5,h6,p{
     color: #FFFFFF;
     font-family: 'Glory', sans-serif;
+=======
+@import "review.css";
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.otf'), url('../fonts/Gilroy-ExtraBold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --main-color:#121212;
+    --side-color:#1B1B1B;
+    --color-element:linear-gradient(to bottom left,#7ACA37,#098C58);
+}
+
+body{ 
+    padding: 0vw 10vw;
+    background: var(--main-color);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: #FFFFFF;
+    font-family:'Gilroy';
+>>>>>>> 3f77b661845ac4df558a65d7fa78040b9f834970
 
 }
 .line{
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+=======
+}
+
+button{
+    border: none;
+    border-radius: 0.2vw;
+>>>>>>> 3f77b661845ac4df558a65d7fa78040b9f834970
 }
