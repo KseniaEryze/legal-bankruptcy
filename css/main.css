@@ -1,16 +1,6 @@
-
-
-body{
-    padding: 0vw 10vw;
-    background: #121212;
-}
-h1,h2,h3,h4,h5,h6,p{
-    color: #FFFFFF;
-    font-family: 'Glory', sans-serif;
-}
-@import "review.css";
-
 @import 'review.css';
+
+@import 'footer.css';
 
 @font-face {
 	font-family: 'Gilroy';
@@ -32,25 +22,6 @@ body {
 	padding: 0;
 	margin: 0;
 	background: var(--main-color);
-}
-
-h1,h2,h3,h4,h5,h6,p{
-    color: #FFFFFF;
-    font-family:'Gilroy';
-
-
-}
-.line{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-button{
-    border: none;
-    border-radius: 0.2vw;
-
 }
 
 h1,
@@ -77,100 +48,3 @@ button {
 	border: none;
 	border-radius: 0.2vw;
 }
-
-/* ------------ footer ------------ */
-
-.footer-main__wrapper {
-	width: 100%;
-
-	background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
-		url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-.footer-main {
-	max-width: 1320px;
-	margin: 0 auto;
-	padding: 80px 0;
-	display: flex;
-	justify-content: space-between;
-}
-
-.footer-main__list {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.footer-main__list a {
-	font-size: 16px;
-	text-decoration: none;
-	line-height: 130%;
-}
-
-.footer-main__list h5 {
-	font-size: 32px;
-	font-weight: 500;
-	line-height: 120%;
-}
-
-.footer-main__contacts {
-	text-align: right;
-}
-
-.footer-main__contacts p {
-	color: var(--gray-gray-3);
-	font-weight: 500;
-	line-height: 130%;
-}
-
-.footer-main__contacts span {
-	color: var(--gray-gray-7);
-	font-family: Circe;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 20px;
-}
-
-.footer-main__tel {
-	font-size: 40px;
-}
-
-.footer-main__email {
-	font-size: 40px;
-}
-
-.footer-main__address {
-	font-size: 24px;
-}
-
-.footer {
-	width: 100%;
-	background: var(--bg2);
-}
-
-.footer__wrapper {
-	max-width: 1320px;
-	margin: 0 auto;
-	padding: 40px 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.footer__text {
-	color: var(--gray-gray-7);
-	font-size: 16px;
-	line-height: 130%;
-}
-
-.footer__text_underline {
-	text-decoration: underline;
-}
-
-.footer__messengers {
-	display: flex;
-	align-items: center;
-	gap: 24px;
-}
-
