@@ -2,7 +2,7 @@
 	width: 100%;
 
 	background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
-		url(<path-to-image>), lightgray 50% / cover no-repeat;
+		url(../img/bg-footer.png), lightgray 50% / cover no-repeat;
 }
 
 .footer-main {
