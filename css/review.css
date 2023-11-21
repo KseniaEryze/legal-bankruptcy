@@ -1,9 +1,4 @@
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-}
+
 /* start style header */
 header {
     display: flex;
@@ -99,14 +94,20 @@ span {
 }
 /* end style header */
 
-.item-1 {
+.dignity_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.dignity_item-1 {
 background-image: url(../img/Frame\ 570\ \(1\).png);
 background-size:100% 100%;
 grid-column: 1 / span 2;
 grid-row: 1 / span 2;
 }
 
-.item{
+.dignity_item{
 display: flex;
 justify-content: space-between;
 align-content: center;
@@ -114,12 +115,12 @@ padding: 2vw;
 
 }
 
-.item img{
+.dignity_item img{
     width: 5vw;
     height: fit-content;
 }
 
-.item p{
+.dignity_item p{
     color: #8C8C8C;
     font-size: 1vw;
     text-align: left;
@@ -133,14 +134,31 @@ padding: 2vw;
 
 }
 
-.feedbackRating{
+
+.feedback-main{
+    margin-top: 10vh;
+
+}
+.feedback-main div{
+    margin: 0 20px;
+}
+.feedback_rating{
     height: 100%;
     background: none;
+    width: auto;
 }
-.mainFeedback{
-    margin-top: 20vh;
+.feedback_estimation {
+    text-align: right;
+    font-size: 3.5vw;
+    color: aliceblue;
 }
-.feedback{
+
+.feedback_rating button{
+    padding: 5px;
+    background-color: #3321BC;
+    color: aliceblue;
+}
+.feedback-description{
   position: relative;
     display: flex;
     justify-content: center;
@@ -149,41 +167,45 @@ padding: 2vw;
     padding: 2vw;
 }
 
-.feedback button{
+.feedback-description_wrapper button{
     position: absolute;
     right: -1.5vw;  
     height: 3vw;
     width: 3vw;
     border-radius: 50%;
+   
 }
-.feedback p{
+.feedback-description_photoFace{
+    width: 8%;
+    height: 8%;
+    margin: 10px;
+}
+.feedback-description p{
     width: 100%;
 }
-.feedback button img{
+.feedback-description_wrapper button img{
     width: 1vw;
     height: 1.5vw;
     padding-left: 0.2vw;
+
 }
-.wrapperTextFeedback{
+.feedback-description_wrapper{
     display: flex;
     align-items: center;
     width: 80%;
 }
+ 
 
-.photoFace{
-    width: 4vw;
-    height: 4vw;
-    padding-right: 4vw;
-}
-
-.line h2{
+.feedback_rating h2{
     flex: 3;
     padding-right: 10vw;
     font-family: Gilroy;
     font-weight: 400;
     font-size: 2.6vw;
+
 }
-.line h4{
+
+.feedback-description_text h4{
 font-family: Gilroy;
 font-size: 40px;
 font-weight: 400;
@@ -192,7 +214,7 @@ letter-spacing: 0em;
 text-align: left;
 }
 
-.line p{
+.feedback-description_text p{
     flex:1;
     font-family: Gilroy;
     font-size: 1.5vw;
@@ -200,31 +222,18 @@ text-align: left;
     padding-right: 2vw;
     color: #8C8C8C;
 }
-
-.line .estimation {
-    text-align: right;
-    margin-left: 5vw;
-    font-size: 3.5vw;
-    color: aliceblue;
-}
-.line button{
-    flex: 2;
-    padding: 10px;
-    background-color: #3321BC;
-    color: aliceblue;
-    height: auto;
-}
+   
 
 
-.textFeedback{
+.feedback-description_text{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     
 }
-.textFeedback h4{
+.feedback-description_text h4{
     font-family: Gilroy;
     font-weight: 200;
     font-size: 4vw;   
-    margin: 0;
+    margin: 15px;
 }
