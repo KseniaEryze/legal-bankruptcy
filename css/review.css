@@ -133,7 +133,10 @@ padding: 2vw;
 
 }
 
-
+.feedbackRating{
+    height: 100%;
+    background: none;
+}
 .mainFeedback{
     margin-top: 20vh;
 }
