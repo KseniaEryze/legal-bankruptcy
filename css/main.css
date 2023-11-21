@@ -1,16 +1,5 @@
 
-
-body{
-    padding: 0vw 10vw;
-    background: #121212;
-}
-h1,h2,h3,h4,h5,h6,p{
-    color: #FFFFFF;
-    font-family: 'Glory', sans-serif;
-}
 @import "review.css";
-
-@import 'review.css';
 
 @font-face {
 	font-family: 'Gilroy';
@@ -34,8 +23,6 @@ body {
 	background: var(--main-color);
 }
 
-<<<<<<< HEAD
-=======
 h1,h2,h3,h4,h5,h6,p{
     color: #FFFFFF;
     font-family:'Gilroy';
@@ -55,7 +42,6 @@ button{
 
 }
 
->>>>>>> 048d67908b7e083ad7e604516bcde37b749fab18
 h1,
 h2,
 h3,
@@ -81,11 +67,9 @@ button {
 	border-radius: 0.2vw;
 }
 
-<<<<<<< HEAD
 .fields{
     padding: 0 100px;
 }
-=======
 /* ------------ footer ------------ */
 
 .footer-main__wrapper {
@@ -182,4 +166,3 @@ button {
 	gap: 24px;
 }
 
->>>>>>> 048d67908b7e083ad7e604516bcde37b749fab18
