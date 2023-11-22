@@ -1,9 +1,4 @@
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-}
+
 /* start style header */
 .header {
     display: flex;
@@ -177,6 +172,8 @@ span {
 .menu-main:after {content: none;}
 .menu-main a {display: block;}
 } */
+
+
 .menu_main_line {
     transform: rotate(90deg);
     width: 2%;
@@ -191,14 +188,30 @@ span {
     /* end style menu */
 /* end style header */
 
-.item-1 {
+
+.field{
+    padding: 100px;
+    background: #121212;
+}
+
+
+
+.warranty_wrapper{
+    background: #121212;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 10vh;
+}
+.warranty_item-1 {
 background-image: url(../img/Frame\ 570\ \(1\).png);
 background-size:100% 100%;
 grid-column: 1 / span 2;
 grid-row: 1 / span 2;
 }
 
-.item{
+.warranty_item{
 display: flex;
 justify-content: space-between;
 align-content: center;
@@ -206,12 +219,12 @@ padding: 2vw;
 
 }
 
-.item img{
+.warranty_item img{
     width: 5vw;
     height: fit-content;
 }
 
-.item p{
+.warranty_item p{
     color: #8C8C8C;
     font-size: 1vw;
     text-align: left;
@@ -226,10 +239,18 @@ padding: 2vw;
 }
 
 
-.mainFeedback{
-    margin-top: 20vh;
+.feedback-main{
+    height: 100%;
+    background: #121212;
+
 }
-.feedback{
+.feedback_estimation {
+    text-align: right;
+    margin-left: 5vw;
+    font-size: 3.5vw;
+    color: aliceblue;
+}
+.feedback-text{
   position: relative;
     display: flex;
     justify-content: center;
@@ -238,30 +259,30 @@ padding: 2vw;
     padding: 2vw;
 }
 
-.feedback button{
+.feedback-text button{
     position: absolute;
     right: -1.5vw;  
     height: 3vw;
     width: 3vw;
     border-radius: 50%;
 }
-.feedback p{
+.feedback-text p{
     width: 100%;
 }
-.feedback button img{
+.feedback-text button img{
     width: 1vw;
     height: 1.5vw;
     padding-left: 0.2vw;
 }
-.wrapperTextFeedback{
+.feedback-text_wrapper{
     display: flex;
     align-items: center;
     width: 80%;
 }
 
-.photoFace{
-    width: 4vw;
-    height: 4vw;
+.feedback-text_photo{
+    width: 10vw;
+    height: 6vw;
     padding-right: 4vw;
 }
 
@@ -271,14 +292,16 @@ padding: 2vw;
     font-family: Gilroy;
     font-weight: 400;
     font-size: 2.6vw;
+    color: aliceblue;
 }
 .line h4{
-font-family: Gilroy;
-font-size: 40px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: 0em;
-text-align: left;
+    color: aliceblue;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .line p{
@@ -290,12 +313,7 @@ text-align: left;
     color: #8C8C8C;
 }
 
-.line .estimation {
-    text-align: right;
-    margin-left: 5vw;
-    font-size: 3.5vw;
-    color: aliceblue;
-}
+
 .line button{
     flex: 2;
     padding: 10px;
@@ -305,13 +323,14 @@ text-align: left;
 }
 
 
-.textFeedback{
+.feedback-text_block{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     
 }
-.textFeedback h4{
+.feedback-text_block h4{
+    color: aliceblue;
     font-family: Gilroy;
     font-weight: 200;
     font-size: 4vw;   
