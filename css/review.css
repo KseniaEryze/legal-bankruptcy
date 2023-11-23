@@ -336,3 +336,189 @@ padding: 2vw;
     font-size: 4vw;   
     margin: 0;
 }
+.newsWrap {
+  width: 100%;
+  background-color: rgb(12, 12, 12)
+}
+.news {
+  max-width: 1320px;
+	margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 65px 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.first_news {
+  grid-row: 2 / span 2;
+}
+.news_main {
+  color: var(--gray-gray-1, #FFF);
+font-family: Gilroy;
+font-size: 80px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+}
+.btn_all-news {
+  color: var(--gray-gray-1, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+padding: 16px 32px;
+border-radius: 8px;
+background: var(--bg, linear-gradient(0deg, #3321BC 0%, #3321BC 100%), url(<path-to-image>), lightgray 50% / cover no-repeat);
+float: right;
+}
+.first_news_img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  border-radius: 8px;
+}
+.first_news {
+  border-radius: 8px;
+background: var(--bg5, linear-gradient(220deg, #7ACA37 15.98%, #70C53A 28.3%, #56B641 48.98%, #2C9F4E 75.34%, #098C58 94.49%));
+}
+.some-inf1 {
+  color: var(--gray-gray-1, #FFF);
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%;
+padding: 32px 32px 16px 32px;
+}
+.min-inf1 {
+  color: var(--gray-gray-1, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+padding: 0 32px 32px 32px;
+}
+.second_news_img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  border-radius: 8px;
+}
+.second_news {
+  background-color: rgba(50, 49, 49, 0.279);
+  border-radius: 8px;
+}
+.some-inf2 {
+  color: var(--gray-gray-1, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+padding: 32px 32px 8px 32px;
+}
+.min-inf2 {
+  color: var(--gray-gray-7, #8C8C8C);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+padding: 0 32px 32px 32px;
+}
+.third_news_img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  border-radius: 8px;
+}
+.third_news {
+  border-radius: 8px;
+  background-color: rgba(50, 49, 49, 0.279);
+}
+.some-inf3 {
+  color: var(--gray-gray-1, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+padding: 32px 32px 8px 32px;
+}
+.min-inf3 {
+  color: var(--gray-gray-7, #8C8C8C);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+padding: 0 32px 32px 32px;
+}
+.formsWrap {
+  width: 100%;
+  background-color: #1B1B1B;
+}
+.forms {
+  max-width: 1320px;
+	margin: 0 auto;
+  height: 340px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.forms1-2-btn {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+}
+.ans {
+  color: var(--gray-gray-3, #F5F5F5);
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+}
+.calls {
+  color: var(--gray-gray-7, #8C8C8C);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+padding-bottom: 15px;
+}
+.name {
+  width: 320px;
+padding: 16px;
+border-radius: 8px;
+border: 1px solid var(--gray-gray-4, #F0F0F0);
+background: var(--gray-gray-1, #FFF);
+height: 62px;
+}
+.phone {
+  width: 320px;
+padding: 16px;
+border-radius: 8px;
+border: 1px solid var(--gray-gray-4, #F0F0F0);
+background: var(--gray-gray-1, #FFF);
+height: 62px;
+}
+.btn_forms {
+  width: 320px;
+padding: 16px 32px;
+border-radius: 8px;
+background: var(--bg5, linear-gradient(220deg, #7ACA37 15.98%, #70C53A 28.3%, #56B641 48.98%, #2C9F4E 75.34%, #098C58 94.49%));
+color: var(--gray-gray-1, #FFF);
+font-family: Circe;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.bird {
+  position: absolute;
+  top: -1px;
+  right: -130px;
+  width: 380px;
+}
