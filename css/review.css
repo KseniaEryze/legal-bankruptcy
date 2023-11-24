@@ -1,6 +1,7 @@
 
 /* start style header */
 .header {
+    padding: 24px 150px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -36,8 +37,8 @@
 }
 .searchTerm {
     width: 100%;
-    background-color: var(--main-color);;
-    border: 1px solid #121212;
+    background-color: var(--said-color);;
+    border: 1px solid #1B1B1B;
     border-right: none;
     padding: 5px;
     height: 20px;
@@ -197,9 +198,10 @@ span {
 }
     /* end style menu */
 .header_booton {
-    background: url(/img/header.jpeg) no repeat;
-    display: flex;
+    background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), url('../img/header.png') lightgray 50% / cover no-repeat;
     height: 813px;
+    width: 100%;
+    display: flex;
     padding: 80px 268px;
     justify-content: center;
     align-items: center;
@@ -267,6 +269,42 @@ span {
     align-items: center;
     gap: 40px;
     align-self: stretch;
+}
+
+/* .frame_559 input[type=number]::-webkit-inner-spin-button,
+           input[type=number]::-webkit-outer-spin-button {
+                               -webkit-appearance: none;
+                                appearance: none;
+                                margin: 0;
+} */
+.frame_559 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+}
+.frame_559 input {
+    margin: 0.4rem 0;
+    display: flex;
+    width: 320px;
+    padding: 16px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-gray-4, #F0F0F0);
+}
+.frame_559 input[type=number] {
+    -moz-appearance: textfield;
+    background-image: url('../img/fi-rr-angle-small-down.svg');
+    background-position: 94% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.frame_559 input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    appearance: none;
+    padding-left: 5px;
 }
 /* end style header */
 
