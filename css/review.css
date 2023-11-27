@@ -548,5 +548,6 @@ line-height: 32px;
   display: none;
 }
 .action.active {
-  display: block;
+  display: flex;
+  justify-content: space-around;
 }
