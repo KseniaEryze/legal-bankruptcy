@@ -543,3 +543,10 @@ line-height: 32px;
   right: -130px;
   width: 380px;
 }
+
+.action {
+  display: none;
+}
+.action.active {
+  display: block;
+}
