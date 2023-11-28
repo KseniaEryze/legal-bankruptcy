@@ -1,0 +1,60 @@
+.main_approach{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+.approach-lawyer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.approach-lawyer p,span{
+   text-align: center;
+}
+
+.approach-lawyer_name{
+    padding-top: 15px;
+}
+
+.approach-lawyer img{
+    width: 25vw;
+}
+
+.approach-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.approach-description h3{
+    font-family: 'Gilroy';
+    color: aliceblue;
+}
+
+.approach-description_point{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.approach-description_icon{
+    display: flex;
+}
+
+.approach-description_icon img{
+    width: auto;
+    height: 5vw;
+    padding-right: 10px;
+}
+
+.approach-description button{
+    flex: none;
+    border-radius: 8px;
+background: var(--bg5, linear-gradient(220deg, #7ACA37 15.98%, #70C53A 28.3%, #56B641 48.98%, #2C9F4E 75.34%, #098C58 94.49%));
+}
