@@ -164,11 +164,11 @@ span {
 }
 .header_menu:before {
     top: 0;
-    border-bottom: 1px dashed rgba(255,255,255,.2);
+    /* border-bottom: 1px dashed rgba(255,255,255,.2); */
   }
   .header_menu:after {
     bottom: 0;
-    border-top: 1px dashed rgba(255,255,255,.2);
+    /* border-top: 1px dashed rgba(255,255,255,.2); */
   }
   .menu-main {
     list-style: none;
@@ -197,6 +197,7 @@ span {
     display: inline-block;
     margin-right: -4px;
     cursor: pointer;
+    margin-top: -2.5vw;
   }
   .menu-main a {
     text-decoration: none;
